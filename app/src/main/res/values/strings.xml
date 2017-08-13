@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Taller1_Jorge_Angulo</string>
+    <string name="perfil1">Perfil</string>
+    <string name="nombre">Google</string>
+    <string name="of">Nueva York (Estados Unidos).</string>
+    <string name="primer">42</string>
+    <string name="primer1">Stories</string>
+    <string name="segundo">517</string>
+    <string name="segundo1">Followers</string>
+    <string name="tercer">284</string>
+    <string name="terer1">Following</string>
+</resources>
