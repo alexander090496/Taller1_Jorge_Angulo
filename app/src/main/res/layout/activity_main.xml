@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.alex.taller1_jorge_angulo.MainActivity">
-
+    <!-- primera parte-->
     <RelativeLayout
         android:id="@+id/relative1"
         android:layout_width="match_parent"
@@ -80,13 +80,15 @@
 
 
     </RelativeLayout>
+    <!--segunda parte-->
     <RelativeLayout
         android:id="@+id/relative2"
         android:layout_width="match_parent"
         android:layout_height="@android:dimen/notification_large_icon_width">
         <RelativeLayout
             android:layout_width="128sp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
 
             <TextView
                 android:id="@+id/text4"
@@ -155,10 +157,8 @@
 
         </RelativeLayout>
 
-
-
-
     </RelativeLayout>
+    <!--tercera parte-->
     <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -458,15 +458,5 @@
 
 
     </ScrollView>
-
-
-
-
-
-
-
-
-
-
 </LinearLayout>
 
