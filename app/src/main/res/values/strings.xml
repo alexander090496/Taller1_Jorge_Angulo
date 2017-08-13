@@ -9,4 +9,20 @@
     <string name="segundo1">Followers</string>
     <string name="tercer">284</string>
     <string name="terer1">Following</string>
+    <string name="texs1">Facebok</string>
+    <string name="texs2">Aplicacion: red social creada por Mark Zuckerberg</string>
+    <string name="texs3">WhatsApp</string>
+    <string name="texs4">Aplicación: Permite enviar y recibir mensajes instantáneos a través de un teléfono móvil </string>
+    <string name="texs5">Settings</string>
+    <string name="texs6">Aplicación: Configura el sistema</string>
+    <string name="texs7">Snapchat</string>
+    <string name="texs8">Aplicación: Pueden compartir, contenido de mensajería de cualquier tipo de imágenes y aplicaciones móviles multimedia.</string>
+    <string name="texs9">Gmail</string>
+    <string name="texs10">Aplicación: Es un servicio de correo electrónico con posibilidades POP3 e IMAP gratuito proporcionado por la empresa estadounidense Google.</string>
+    <string name="texs11">Musica</string>
+    <string name="texs12">Aplicacion: Podra escuchar la musica guardada en el dispositivo movil</string>
+    <string name="texs13">Calculadora</string>
+    <string name="texs14">Aplicación: Calculadora permitira hacer calculos simples.</string>
+    <string name="texs15">Instagram</string>
+    <string name="texs16">Aplicación: Es una aplicación que actúa como red social ya que permite a sus usuarios subir cualquier tipo de fotos y videos, con la opción de aplicar diversos efectos fotográficos, como por ejemplo, filtros, marcos, similitudes térmicas, colores retro, o vintage.</string>
 </resources>

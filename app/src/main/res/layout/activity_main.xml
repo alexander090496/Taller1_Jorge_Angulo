@@ -80,7 +80,6 @@
 
 
     </RelativeLayout>
-
     <RelativeLayout
         android:id="@+id/relative2"
         android:layout_width="match_parent"
@@ -160,14 +159,312 @@
 
 
     </RelativeLayout>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
 
-    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenface"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_facebook_50"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textface"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs1"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenface"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs2"
+                            android:layout_toRightOf="@id/imagenface"
+                            android:layout_below="@id/textface"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_whatsapp_64"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textw"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs3"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenw"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs4"
+                            android:layout_toRightOf="@id/imagenw"
+                            android:layout_below="@id/textw"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_settings_50"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs5"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenc"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs6"
+                            android:layout_toRightOf="@id/imagenc"
+                            android:layout_below="@id/textc"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagens"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_snapchat_50"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/texts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs7"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagens"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs8"
+                            android:layout_toRightOf="@id/imagens"
+                            android:layout_below="@id/texts"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_gmail_50"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs9"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imageng"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs10"
+                            android:layout_toRightOf="@id/imageng"
+                            android:layout_below="@id/textg"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_musical_notes_50"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs11"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenm"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs12"
+                            android:layout_toRightOf="@id/imagenm"
+                            android:layout_below="@id/textm"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imagenca"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_calculator_50"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/textca"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs13"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imagenca"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs14"
+                            android:layout_toRightOf="@id/imagenca"
+                            android:layout_below="@id/textca"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="1dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageni"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icons8_instagram_50"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:id="@+id/texti"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs15"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@id/imageni"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/texs16"
+                            android:layout_toRightOf="@id/imageni"
+                            android:layout_below="@id/texti"
+                            android:textSize="15sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
 
 
 
