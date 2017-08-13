@@ -73,12 +73,7 @@
             android:layout_centerHorizontal="true"
             />
 
-    </RelativeLayout>
-
-
-
-
-
+        </RelativeLayout>
     </RelativeLayout>
     <!--segunda parte-->
     <RelativeLayout
@@ -440,23 +435,7 @@
                             android:textSize="15sp"/>
                     </RelativeLayout>
                 </LinearLayout>
-
-
-
-
-
             </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
     </ScrollView>
 </LinearLayout>
 
