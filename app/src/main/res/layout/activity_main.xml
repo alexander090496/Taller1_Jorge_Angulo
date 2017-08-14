@@ -163,7 +163,8 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <LinearLayout
+                <!--facebook-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -196,8 +197,9 @@
                             android:layout_below="@id/textface"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-            </LinearLayout>
-                <LinearLayout
+            </RelativeLayout>
+                <!--was-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -230,8 +232,9 @@
                             android:layout_below="@id/textw"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-                </LinearLayout>
-                <LinearLayout
+                </RelativeLayout>
+                <!--configuracion-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -264,8 +267,9 @@
                             android:layout_below="@id/textc"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-                </LinearLayout>
-                <LinearLayout
+                </RelativeLayout>
+                <!--snapchat-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -298,8 +302,9 @@
                             android:layout_below="@id/texts"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-                </LinearLayout>
-                <LinearLayout
+                </RelativeLayout>
+                <!--gmail-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -332,8 +337,9 @@
                             android:layout_below="@id/textg"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-                </LinearLayout>
-                <LinearLayout
+                </RelativeLayout>
+                <!--MUSICA-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -366,8 +372,9 @@
                             android:layout_below="@id/textm"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-                </LinearLayout>
-                <LinearLayout
+                </RelativeLayout>
+                <!--CALCULADORA-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -400,8 +407,9 @@
                             android:layout_below="@id/textca"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-                </LinearLayout>
-                <LinearLayout
+                </RelativeLayout>
+                <!--INSTAGRAM-->
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -434,8 +442,18 @@
                             android:layout_below="@id/texti"
                             android:textSize="15sp"/>
                     </RelativeLayout>
-                </LinearLayout>
+                </RelativeLayout>
             </LinearLayout>
     </ScrollView>
 </LinearLayout>
 
+
+
+
+
+
+
+
+
+
+    <!--JORGE ALEXANDER ANGULO MUESES-->
